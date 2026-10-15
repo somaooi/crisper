@@ -1,0 +1,187 @@
+.picture {
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    width: 750px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 250px;
+}
+
+
+.picture_back {
+    display: flex;
+    margin-top: 10px;
+    text-align: lefT;
+    border-radius: 20px;
+}
+
+
+.text_back {
+    margin-left: 100px;
+}
+
+
+.explan_text {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.news {
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.line {
+    height: 2px;
+    width: 100000px;
+    background-color: black;
+}
+
+
+.line1 {
+    margin-top: -25px;
+    margin-left: -30px;
+}
+
+
+.line2 {
+    margin-left: -30px;
+    margin-top: 5px;
+}
+
+
+.garo {
+    display: flex;
+    margin-left: 450px;
+}
+
+
+.news_text {
+    margin-top: 250px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.grade_select {
+    width: 300px;
+    margin-left: 40px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 75px;
+    font-weight: bold;
+    background-color:white;
+}
+
+
+.button_background {
+    text-align: center;
+}
+
+
+.big_shcool {
+    margin-left: 170px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.subject_background {
+    margin-top: -30px;
+    border: 1px solid black;
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+
+
+}
+
+
+.grade_button {
+    text-align: center;
+}
+
+
+.subject_name {
+    margin-left: 10px;
+}
+
+
+.one_1 {
+    margin-top: 50px;
+}
+
+
+.season_background {
+    width: 900px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+
+.row {
+    margin-top: 50px;
+    display: flex;
+}
+
+
+.three_row {
+    margin-left: 300px;
+}
+
+
+.one_grade {
+    display: flex;
+}
+
+
+.two_grade {
+    display: flex;
+}
+
+
+.three_grade {
+    display: flex;
+}
+
+
+.averge_grade_background {
+    margin-left: 425px;
+}
+
+
+.total_background {
+    border: 1px solid black;
+    width: 1870px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+@media (max-width: 600px) {.grade_select {
+    width: 15vw;
+    height: 8vw;
+    font-size: clamp(12px, 4vw, 18px);
+}
+
+
+.subject_background {
+    width: 18vw;
+    height: 8vw;
+}
+
+
+.explan_text {
+    font-size: clamp(14px, 4vw, 20px);
+}
+}
